@@ -1,0 +1,23 @@
+{
+  "name": "hardhat-project",
+  "version": "0.0.1",
+  "license": "MIT",
+  "author": "@kwalkernnk",
+  "scripts": {
+    "compile": "hardhat compile",
+    "deploy": "hardhat run scripts/deploy.js",
+    "console": "hardhat console",
+    "node": "hardhat node",
+    "test": "hardhat test",
+    "help": "hardhat help",
+    "coverage": "hardhat coverage",
+    "verify": "hardhat run scripts/deploy.ts --network bscTestnet"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "hardhat": "^2.22.9"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5"
+  }
+}
