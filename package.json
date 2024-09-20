@@ -5,7 +5,7 @@
   "author": "@kwalkernnk",
   "scripts": {
     "compile": "hardhat compile",
-    "deploy": "hardhat run scripts/deploy.js",
+    "deploy": "hardhat run scripts/deploy.ts",
     "console": "hardhat console",
     "node": "hardhat node",
     "test": "hardhat test",
